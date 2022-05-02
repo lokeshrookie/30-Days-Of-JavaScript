@@ -1,3 +1,9 @@
+Familiar with:
+selectors
+comments
+link css to html.
+Colors
+
 
 There are three ways to use css in html.
 1. Inline. ( inside html element.)
@@ -82,4 +88,11 @@ SELECTERS:
         //property and value.
     }
         This will select all the elements on the html page.
+
+Colors:
+1.RGB (rgb(255, 0, 0) : red)
+2.HEX ( #00ff00 : green)
+3.HSL (hsl(9, 100%, 50%))  hue, saturation , lightness.
+
+Note: saturation is the reason for change in color.
 

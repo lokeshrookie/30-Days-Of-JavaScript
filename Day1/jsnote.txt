@@ -1,0 +1,31 @@
+Types of outputs:
+alert("context")
+console.log("context")
+
+var: used to create varibles 
+val is used to create constants
+let: create variable 
+const: create constants
+Null: empty value
+Undefined: if a funciton is not returning anything, then it returns undefiennd.
+           the value is not assigned to variable.
+
+
+console.log(typeof variable_name) - to check variable type.
+
+comments:
+
+ //This is a single line comment.
+
+ /* 
+
+ This 
+ is a 
+ multilin
+ comment.
+
+ */
+
+
+if you link two js files to html file, then you can declare data in one js file and access it from another file.
+

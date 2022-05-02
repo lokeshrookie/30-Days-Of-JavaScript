@@ -17,6 +17,9 @@ NOTE : Inline style will override internal
 External css:
 
 <link rel = "styelsheet" href = "mystyle.css">
+NOTE: rel is necessary. 
+    styelsheet: apply predefined styles when css file is linked.
+    alternate styelsheet:  alternate styles.
 
 Internal css:
 

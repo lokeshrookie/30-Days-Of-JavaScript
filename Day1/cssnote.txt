@@ -1,0 +1,82 @@
+
+There are three ways to use css in html.
+1. Inline. ( inside html element.)
+2. External.
+3. Internal. 
+
+What style will be used when there is more than one style specified for an HTML element?
+
+All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:
+
+Inline style (inside an HTML element)
+External and internal style sheets (in the head section)
+Browser default
+
+NOTE : Inline style will override internal
+
+External css:
+
+<link rel = "styelsheet" href = "mystyle.css">
+
+Internal css:
+
+<style>
+/** style tag is used for internal css. **/
+h1{
+
+}
+p{
+    
+}
+
+</style>
+
+Inline css:
+    Inline css is written inside the html element.
+    Example:
+        <h1 style = "color:blue", "text-align : center">
+            Inline CSS
+        </h1>
+
+
+
+
+SELECTERS:
+    1. element selector( element)
+        example : 
+
+        p{ 
+            color: blue;
+        }
+
+        This will change all p elements color to blue.
+
+    2. id selector(#)
+        example:
+        #id_name{
+
+        }
+
+    3. class selector(.):
+        example:
+         .class_name{
+
+         }
+         p.class_name{
+
+         }
+         effects only p elements of class.
+
+    4. group selector:
+        example:
+        h1, p{
+            color: green
+        }
+
+        This will change color of p and  h1 elements to green.
+    5. Universal selector:
+    *{
+        //property and value.
+    }
+        This will select all the elements on the html page.
+

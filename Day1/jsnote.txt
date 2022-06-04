@@ -6,6 +6,14 @@ var: used to create varibles
 val is used to create constants
 let: create variable 
 const: create constants
+
+var => funciton scoped.
+let and const => block scoped variables. 
+
+NOTE: avoiding var is better to avoid errors.
+
+
+
 Null: empty value
 Undefined: if a funciton is not returning anything, then it returns undefiennd.
            the value is not assigned to variable.
